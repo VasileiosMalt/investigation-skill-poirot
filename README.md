@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square" alt="Python 3.10+"/>
     <img src="https://img.shields.io/badge/LLM-provider%20agnostic-green?style=flat-square" alt="Provider agnostic"/>
     <img src="https://img.shields.io/badge/API%20key-optional-yellow?style=flat-square" alt="API key optional"/>
-    <img src="https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square" alt="MIT License"/>
+    <img src="https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey?style=flat-square" alt="CC BY-NC 4.0 License"/>
   </p>
 </div>
 
@@ -253,7 +253,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) — see [LICENSE](LICENSE).
 
 ---
 
