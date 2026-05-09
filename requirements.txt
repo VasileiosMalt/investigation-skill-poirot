@@ -1,0 +1,37 @@
+# ── Poirot — Python dependencies ──────────────────────────────────────────────
+#
+# All dependencies are OPTIONAL. Poirot degrades gracefully when packages
+# are absent — it will skip the feature that requires them and continue.
+#
+# Install everything:
+#   pip install -r requirements.txt
+#
+# Install only what you need (see comments per section):
+#   pip install openai anthropic          # cloud LLM providers
+#   pip install Pillow piexif             # image processing + EXIF
+#   pip install openai-whisper            # local audio transcription
+#   pip install python-docx PyMuPDF       # document text extraction
+
+# ── Cloud LLM / VLLM providers ────────────────────────────────────────────────
+openai>=1.30.0          # OpenAI GPT-4o, Whisper API, OpenRouter-compatible
+anthropic>=0.25.0       # Anthropic Claude (Opus, Sonnet, Haiku)
+google-generativeai>=0.5.0  # Google Gemini (optional — native video support)
+
+# ── Image processing ──────────────────────────────────────────────────────────
+Pillow>=10.0.0          # Image resizing, format conversion, basic EXIF
+piexif>=1.1.3           # Detailed EXIF extraction and tampering indicators
+
+# ── Audio / video ─────────────────────────────────────────────────────────────
+# openai-whisper          # Local Whisper transcription (installs torch — large)
+# ffmpeg-python           # FFmpeg bindings for keyframe extraction
+# NOTE: ffmpeg binary must also be installed separately (https://ffmpeg.org)
+
+# ── Document text extraction ──────────────────────────────────────────────────
+python-docx>=1.1.0      # .docx files
+PyMuPDF>=1.24.0         # PDF files (fitz)
+openpyxl>=3.1.0         # .xlsx spreadsheets
+extract-msg>=0.48.0     # Outlook .msg email files
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0    # Optional: load .env files (Poirot has its own parser,
+                        # but python-dotenv handles edge cases better)
