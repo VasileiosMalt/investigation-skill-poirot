@@ -2,11 +2,11 @@
   <img src="assets/logo.png" alt="Agent Poirot" width="220" />
 
   <h1>Poirot</h1>
-  <p><em>"The impossible could not have happened, therefore the impossible must be possible in spite of appearances."</em></p>
+  <p><em>Mesdames et Messieurs...</em></p>
 
   <p>
-    <strong>A meticulous, multi-modal AI investigation agent.</strong><br/>
-    Give it a case directory. It reads every file, watches every frame, listens to every word —<br/>
+    <strong>Before you is an AI investigation agent that will investigate your case with Order and Method.</strong><br/>
+    Give it a case directory. It reads every file, watches every frame, listens to every word...<br/>
     and reasons its way to the truth.
   </p>
 
@@ -258,5 +258,5 @@ Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) — 
 ---
 
 <div align="center">
-  <sub>Built with the little grey cells &nbsp;🩶</sub>
+  <sub>Inspired by my little grey cells &nbsp;🩶</sub>
 </div>
