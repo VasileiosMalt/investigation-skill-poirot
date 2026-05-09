@@ -26,6 +26,21 @@ Poirot never speculates without evidence. Every claim is grounded in a cited sou
 
 ---
 
+## Agent Installation Instructions
+
+If Poirot is not yet installed or dependencies are missing, the agent can install it autonomously:
+
+1. **Python Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **System Dependencies (ffmpeg)** (required for video/audio analysis):
+   - macOS: `brew install ffmpeg`
+   - Linux (Ubuntu/Debian): `sudo apt install ffmpeg -y`
+   - Windows (PowerShell): `winget install ffmpeg` or `choco install ffmpeg -y`
+
+---
+
 ## Running Poirot
 
 ### Automatic pipeline (recommended)
