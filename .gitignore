@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Investigation outputs (never commit case data)
+_poirot_output/
+outputs/
+*/outputs/
+routing_plan.json
+case_manifest.json
+evidence_manifest.json
+case_knowledge_base.md
+image_analysis_report.*
+av_analysis_report.*
+poirot_report.*
+logical_chains.md
+synthesis_notes.md
+transcripts/
+keyframes/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
